@@ -1,0 +1,72 @@
+.a{
+border-radius: 100px 90px 0px 0px;
+
+
+}
+.b{
+
+border-radius: 0px 0px 100px 10px;
+
+}
+#c{
+	animation-name: lavish;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	position:relative;
+}
+@keyframes lavish
+{
+
+0%{
+	left: -3000px;
+
+}
+25%{
+	right: 3000px;
+}
+50%{
+
+left: -4000px;
+
+}
+100%{
+left: 0px;
+
+}
+
+
+}
+#c:hover{
+
+border-radius: 200px ;
+
+
+
+}
+#a h1{
+position: relative; animation-name: lavish1;
+animation-duration: 5s;
+animation-delay: 1s;
+text-align: center;
+animation-fill-mode: forwards;
+transition-duration: none;
+
+}
+@keyframes lavish1{
+0%{
+
+	top: -110px;
+}
+50%{
+
+top: -90px;
+
+}
+75%{
+
+top: -550px;
+
+}
+100%{
+	left:400; 
+}
